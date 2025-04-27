@@ -83,7 +83,7 @@ def main():
     initialize_database()
     seed_database()
 
-    st.title("📚 Qualification Approval Tracker")
+    st.title("🎓 Qualification Approval Tracker")
 
     st.subheader(f"Welcome!")
 
@@ -94,7 +94,7 @@ def main():
     view_mode = st.toggle("🔀 Toggle View Mode", value=True)
 
     if view_mode:
-        st.subheader("👀 View Qualifications")
+        st.subheader("View Qualifications")
 
         # Filter
         status_filter = st.selectbox(
